@@ -1,0 +1,37 @@
+#videos {
+    padding: 2px;
+    display: inline-block;
+    text-align: center;
+    }
+    html{
+        background-image: url(images/istockphoto-506910700-1024x1024.jpg);
+        background-size: cover;
+          }
+        #links li{
+            display: inline-block;     
+            
+        }
+        #links a{
+        border-bottom:2px solid rgb(16, 16, 16) ;
+        justify-content: space-between;
+        text-transform: uppercase;
+        }
+        #links a:hover{
+            background-color:rgb(70, 156, 169);
+            }
+            #videos strong{
+                text-align: center;
+            }
+            .main{
+                background-color:rgb(70, 156, 169);
+            }
+            .body{
+                background-color:rgb(224, 229, 233);
+
+            }
+            #links a{
+                padding: 1em 4em;
+            }
+            #links{
+                text-align: center;
+            }

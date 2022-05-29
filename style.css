@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(19, 17, 14);
+}
+a{
+    text-decoration: none;
+}
+
+
+ table,tr,th,td {
+    border: 2px solid rgb(16, 15, 15);
+    border-collapse: collapse;
+    padding: 30px;
+    margin: auto;
+}
+footer{
+    background-color: rgb(49, 162, 232);
+    margin: auto;
+    padding: 2px;
+}  
+.nav ul{
+    justify-content: space-between;
+}
+.nav a:hover{
+    background-color: brown;
+    padding: 23px;
+    border-bottom: 2px solid black;
+}
+.start{
+    background-image: url(images/pexels-eva-elijas-6957221.jpg);
+    background-size: cover;
+    padding-bottom: 30px;
+    background-blend-mode: multiply;
+}
+.nav li{
+    display: inline-block;
+    padding: 0 5%;
+    margin-top: 1em;
+  
+}
+html{
+    margin: 2em auto;
+    border: .3em solid black;
+    
+}
+.nav a{
+    padding: .5em;
+    border-bottom: 2px solid white;
+}
+.topic{
+    margin: 2em auto;
+    font-style: italic;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.initial{
+    margin: 0.4em auto;
+    color:azure;
+}
+#main{
+    text-align: justify;
+    padding: 2em;
+    background-color: rgb(70, 156, 169);
+}
+dl{
+    text-align: center;
+}
+dl dd{
+    text-align: justify;
+    text-transform: capitalize;
+}
+#my{
+    font-style: italic;
+}
+#one{
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+#two{
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+#three,#four{
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+#left{
+text-align: left;}
+image{
+    float: left;
+}
+.nav.active{
+    opacity: 1;
+    visibility: visible;
+}
+.nav ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.nav ul li{
+    list-style: none;
+
+}
+.nav ul li a{
+    display: inline-block;
+    color:#015b75;
+    font-size: 300;
+    font-size: 2em;
+    text-decoration: none;
+    font-weight: 300;
+
+
+}
+.nav ul li a:hover{
+    color:#ff286f;
+}
+
+    
